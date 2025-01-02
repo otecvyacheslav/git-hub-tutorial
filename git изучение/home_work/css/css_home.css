@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1.aaa{
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 20%;
+}
+
+p.aaa{
+    font-style: italic;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+p.aaa::first-letter{
+    margin-left: 1%;
+}
+
+p.aaa::first-line{
+    font-weight: bolder;
+    font-size: 2em;
+}
